@@ -8,7 +8,7 @@ zFont.instance.loadSWF("assets/font/zFont.swf",true);<br/>
 function loadCompleteHandler(event:zFontEvent):void<br/>
 {<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;zFont.instance.registerFromURL();//注册字体<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;labelText.setStyle("fontFamily","zFont");//flex - CFF<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;flexLabel.setStyle("fontFamily","zFont");//flex - CFF<br/>
   
 &nbsp;&nbsp;&nbsp;&nbsp;var tf:TextField = new TextField();//flash - unCFF<br />
 &nbsp;&nbsp;&nbsp;&nbsp;tf.type = TextFieldType.DYNAMIC;<br/>
