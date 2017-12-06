@@ -14,7 +14,7 @@ function loadCompleteHandler(event:zFontEvent):void<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;tf.type = TextFieldType.DYNAMIC;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;tf.autoSize = TextFieldAutoSize.LEFT;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;tf.embedFonts = true;//嵌入设置<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;var tft:TextFormat = new TextFormat("zFont", 40,0xFF0000,true);//默认使用嵌入的WB_Arial字体<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;var tft:TextFormat = new TextFormat("zFont", 40,0xFF0000,true);<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;tf.defaultTextFormat = tft;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;tf.text = "ZB";<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;ui.addChild(tf);<br/>
