@@ -1,5 +1,5 @@
 # z_font
-#flash/flex Font
+flash/flex Font
 
 zFont.instance.addEventListener(zFontEvent.LOAD_COMPLETE,loadCompleteHandler);<br/>
 zFont.instance.addEventListener(zFontProgressEvent.PROGRESS,onProgressHandler);<br/>
