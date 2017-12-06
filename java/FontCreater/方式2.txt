@@ -1,0 +1,1 @@
+java -jar FontCreater.jar -o zFont.swf -c char.txt -f "zFont.otf" -n zFont -3

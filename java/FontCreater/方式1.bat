@@ -1,0 +1,1 @@
+java -Dsun.io.useCanonCaches=false -Xms32m -Xmx512m -jar FontCreater.jar config.properties

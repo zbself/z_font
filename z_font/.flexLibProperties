@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.zb.as3.zlib.font.zFont"/>
+    <classEntry path="com.zb.as3.zlib.font.util.UnicodeUtil"/>
+    <classEntry path="com.zb.as3.zlib.font.core.zFontEvent"/>
+    <classEntry path="com.zb.as3.zlib.font.core.zFontProgressEvent"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
